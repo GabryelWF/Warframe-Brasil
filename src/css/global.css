@@ -1,0 +1,86 @@
+@import './themes/pageThemes.css';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--primary);
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 2px solid var(--border);
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--links);
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+}
+
+header a:hover {
+    background: var(--border);
+}
+
+header a.active {
+    background: var(--border);
+    border-radius: 2px;
+}
+
+.builds-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.input-container {
+    position: relative;
+    width: 50%;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: 2px solid var(--border);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: var(--primary);
+    color: var(--text);
+}
+
+.input-container i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text);
+    pointer-events: none;
+}
