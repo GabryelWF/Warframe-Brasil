@@ -1,1 +1,6 @@
 - adicionar datalist ao search input
+- adicionar filtro
+- adicionar modal
+- ajustar o loadManifest com alguns pontos (nomes com acentuação, etc)
+- corrigir tamanho diferentes 
+- arrumar etiquetas

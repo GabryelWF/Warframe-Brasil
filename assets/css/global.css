@@ -1,4 +1,5 @@
 @import './themes/pageThemes.css';
+@import './sections/builds.css';
 
 
 * {
@@ -50,14 +51,6 @@ header a:hover {
 header a.active {
     background: var(--border);
     border-radius: 2px;
-}
-
-.builds-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
 }
 
 .input-container {
